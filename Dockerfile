@@ -5,9 +5,8 @@ RUN mkdir -p /usr/src/app/
 WORKDIR /usr/src/app/
 
 COPY . .
-
-ONBUILD RUN npm install
+RUN npm install && npm run build
 
 ENV HOST 0.0.0.0
-# Install app dependencies
-CMD [ "npm", "run", "buildStart"]
+EXPOSE 3000
+CMD [ "npm", "run", "start"]
