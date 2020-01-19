@@ -6,7 +6,7 @@
         Wouter Vernaillen
       </h1>
       <h2 class="subtitle">
-        www.vernaillen.com
+        https://www.vernaillen.com
       </h2>
     </div>
   </div>
